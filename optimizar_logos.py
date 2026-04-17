@@ -47,7 +47,7 @@ def optimizar_logos():
                 with Image.open(file_path) as img:
                     width_percent = (target_width / float(img.size[0]))
                     target_height = int((float(img.size[1]) * float(width_percent)))
-                    img_resized = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
+                    img_resized = img.resize((target_width, target_height), Image.Resampling.LANCZOS) # LANCZOS preserva la mejor calidad al reducir
                     
                     output_path = os.path.join(output_folder, filename)
                     img_resized.save(output_path, "WEBP", quality=80, method=6) # method=6 maximiza la compresión
