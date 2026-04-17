@@ -32,6 +32,10 @@ if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
 def optimizar_logos():
+    """
+    Redimensiona y optimiza una lista predefinida de logos a formato WEBP.
+    Calcula y reporta en consola el ahorro total de espacio en disco (KB).
+    """
     print(f"--- Iniciando proceso de optimización en {img_folder} ---")
     ahorro_total_kb = 0
     
