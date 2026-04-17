@@ -52,11 +52,9 @@ python optimizar_logos_3.py
 ```
 
 ## 💻 Tecnologías Utilizadas
-* Lenguaje: Python 3.x
-  
-* Procesamiento de Imagen: Pillow (PIL)
-  
-* Formatos Soportados: PNG, JPG, WEBP, ICO.
+* **Lenguaje:** Python 3.x
+* **Procesamiento de Imagen:** Pillow (PIL)
+* **Formatos Soportados:** WEBP, PNG, JPG, ICO.
 
 ## 👨‍💻 Autor
 Juan Manuel Landa
