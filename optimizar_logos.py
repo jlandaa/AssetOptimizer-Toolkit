@@ -50,7 +50,7 @@ def optimizar_logos():
                     img_resized = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
                     
                     output_path = os.path.join(output_folder, filename)
-                    img_resized.save(output_path, "WEBP", quality=80, method=6)
+                    img_resized.save(output_path, "WEBP", quality=80, method=6) # method=6 maximiza la compresión
                     
                     size_old = os.path.getsize(file_path) / 1024
                     size_new = os.path.getsize(output_path) / 1024
