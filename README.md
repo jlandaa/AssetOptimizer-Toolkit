@@ -1,4 +1,6 @@
 # AssetOptimizer-Toolkit 🚀
+![Status: Maintained](https://img.shields.io/badge/Status-Maintained-brightgreen?style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 Este repositorio contiene una colección de scripts en **Python** diseñados para la automatización, procesamiento y optimización técnica de activos visuales destinados a sitios web de alto rendimiento. 
 
